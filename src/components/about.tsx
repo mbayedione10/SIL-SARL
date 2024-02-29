@@ -1,7 +1,6 @@
-import {
-  Typography,
-} from "@material-tailwind/react";
 import ThemeProvider from "./theme-provider";
+import MaterialTailwind from '@material-tailwind/react';
+const { Typography } = MaterialTailwind;
 
 export function AboutPresentation() {
  
@@ -59,7 +58,6 @@ export function AboutPresentation() {
       </div>
             <video 
             src="video.mp4" 
-            alt="video" 
             className="mx-auto  md:flex" 
             style={{ height: "400px", width:"400px" }}
             controls />
