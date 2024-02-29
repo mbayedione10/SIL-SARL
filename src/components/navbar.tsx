@@ -8,36 +8,29 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import {
-  CubeTransparentIcon,
-  UserCircleIcon,
-  CodeBracketSquareIcon,
-  Square3Stack3DIcon,
-  ChevronDownIcon,
-  Cog6ToothIcon,
-  InboxArrowDownIcon,
-  LifebuoyIcon,
-  PowerIcon,
+  UserIcon,
+  WrenchScrewdriverIcon,
+  InformationCircleIcon,
   Bars2Icon,
 } from "@heroicons/react/24/outline";
  
-
  
 // nav list component
 const navListItems = [
   {
     label: "A Propos",
-    icon: CodeBracketSquareIcon,
+    icon: InformationCircleIcon,
     href: "#a-propos",
   },
     {
     label: "Services",
-    icon: CodeBracketSquareIcon,
+    icon: WrenchScrewdriverIcon,
     href: "#services",
   },
     {
     label: "Contact",
-    icon: CodeBracketSquareIcon,
-    href: "#Contact",
+    icon: UserIcon,
+    href: "#contact",
   }
 ];
  
