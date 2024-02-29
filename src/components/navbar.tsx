@@ -93,15 +93,18 @@ export default function ComplexNavbar() {
       }`}
     >
       <div className="relative mx-auto flex items-center text-blue-gray-900">
-        <Avatar
+        <a href="#">
+          <Avatar
             size="lg"
             alt="Logo SIL SARL"
             className="border border-gray-900 p-0.5"
             src="SIL-LOGO.png"
           />
+        </a>
+        
         <Typography
           as="a"
-          href="/"
+          href="#"
           className="mr-4 ml-2 cursor-pointer py-1.5 font-medium"
         >
           Sénégalaise de l’Ingénierie et de la Logistique SARL
