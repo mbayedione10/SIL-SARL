@@ -97,7 +97,7 @@ export default function ComplexNavbar() {
             size="lg"
             alt="Logo SIL SARL"
             className="border border-gray-900 p-0.5"
-            src="logos/SIL-LOGO.png"
+            src="SIL-LOGO.png"
           />
         <Typography
           as="a"
