@@ -1,33 +1,21 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import HeaderPresentation from "../components/presentation/header"
-import FeaturePresentation from "../components/presentation/feature"
-import LogosPresentation from "../components/presentation/logos"
-import DevFreePresentation from "../components/presentation/developerFree"
-import PalettePresentationFree from "../components/presentation/palette"
-import CodePresentation from "../components/presentation/code"
-import FreeToProPresentation from "../components/presentation/freeToPro"
-import AstroPresentation from "../components/presentation/astro"
-import PagesFreePresentation from "../components/presentation/pagesFree"
-import GithubPresentation from "../components/presentation/github"
-import PricingPresentation from "../components/presentation/pricing"
-import FooterFreePresentation from "../components/presentation/footerFree"
+import Quotes from "../components/quotes"
+import Footer from "../components/footer"
+import ServicesSection from "../components/services"
+import AboutPresentation from "../components/about"
+import Contact from "../components/Contact.astro"
 
 ---
 
 <Layout title="SIL SARL">
 	<main>
     <HeaderPresentation client:only="react" />
-    <FeaturePresentation client:only="react" />
-    <LogosPresentation client:only="react" />
-    <DevFreePresentation client:only="react" />
-    <PalettePresentationFree client:only="react" />
-    <CodePresentation client:only="react" />
-    <FreeToProPresentation client:only="react" />
-    <AstroPresentation client:only="react" />
-    <PagesFreePresentation client:only="react" />
-    <PricingPresentation client:only="react" />
-    <GithubPresentation client:only="react" />
-    <FooterFreePresentation client:only="react" />
+    <ServicesSection client:only="react" />
+    <AboutPresentation client:only="react" />
+    <Quotes client:only="react" />
+    <Contact/>
+    <Footer client:only="react" />
   </main>
 </Layout>
