@@ -31,7 +31,7 @@ export function AboutPresentation() {
           </div>
           <div>
       <div className="absolute right-0 top-0 h-full w-full flex justify-end">
-        <div className="w-28 h-28 overflow-hidden flex rounded-xl relative blur-2xl">
+        <div className="w-28 h-28  flex rounded-xl relative blur-2xl">
             <span
               className="absolute w-16 h-16 -top-1 -right-1 bg-[#25328D] rounded-md rotate-45"
             ></span>
@@ -45,7 +45,7 @@ export function AboutPresentation() {
       </div>
 
       <div className="absolute right-0 bottom-0 h-full w-full flex items-end">
-        <div className="w-28 h-28 overflow-hidden flex rounded-xl relative blur-2xl">
+        <div className="w-28 h-28  flex rounded-xl relative blur-2xl">
             <span
               className="absolute w-16 h-16 -top-1 -right-1 bg-[#25328D] rounded-md rotate-45"
             ></span>
