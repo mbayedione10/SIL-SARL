@@ -71,7 +71,7 @@ export function TeamSectionOne() {
   return (
     <section id="a-propos" className="py-8 px-8 lg:py-16">
       <div className="container mx-auto">
-        <div className="mb-10 w-1/2">
+        <div className="mb-10 ">
           <Typography variant="h2" color="blue-gray" className="mb-4">
             Nos domaines d'activités
           </Typography>
