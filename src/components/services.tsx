@@ -1,9 +1,11 @@
-import MaterialTailwind from '@material-tailwind/react';
-const { 
+import {
   Card,
   CardHeader,
-  CardBody, 
-  Typography } = MaterialTailwind;
+  CardBody,
+
+  Typography,
+} from "@material-tailwind/react";
+
 interface ServicesCardPropsType {
   img: string;
   category: string;

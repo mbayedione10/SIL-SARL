@@ -1,6 +1,8 @@
+import {
+  Card,
+  Typography,
+} from "@material-tailwind/react";
 import ThemeProvider from "./theme-provider";
-import MaterialTailwind from '@material-tailwind/react';
-const { Card, Typography } = MaterialTailwind;
 
 interface QuotesCardPropsType {
   img: string;

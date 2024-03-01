@@ -1,6 +1,8 @@
 import React from "react";
-import MaterialTailwind from '@material-tailwind/react';
-const { Button, Typography } = MaterialTailwind;
+import {
+  Button,
+  Typography,
+} from "@material-tailwind/react";
 
 import ThemeProvider from "./theme-provider";
 import Navbar from "./navbar";

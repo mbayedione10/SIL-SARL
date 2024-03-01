@@ -1,6 +1,4 @@
-import pkg from '@material-tailwind/react';
-const {  ThemeProvider: MTThemeProvider } = pkg;
-
+import { ThemeProvider as MTThemeProvider } from "@material-tailwind/react";
 const customTheme = {
   button: {
     valid: {

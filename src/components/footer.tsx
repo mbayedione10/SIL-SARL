@@ -1,5 +1,4 @@
-import MaterialTailwind from '@material-tailwind/react';
-const { IconButton, Typography } = MaterialTailwind;
+import { Typography, IconButton } from "@material-tailwind/react";
 
 const YEAR = new Date().getFullYear();
 

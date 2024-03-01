@@ -1,6 +1,7 @@
+import {
+  Typography,
+} from "@material-tailwind/react";
 import ThemeProvider from "./theme-provider";
-import MaterialTailwind from '@material-tailwind/react';
-const { Typography } = MaterialTailwind;
 
 export function AboutPresentation() {
  
