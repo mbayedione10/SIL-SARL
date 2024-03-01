@@ -1,12 +1,6 @@
 import React from "react";
-import {
-  Navbar,
-  Collapse,
-  Typography,
-  MenuItem,
-  Avatar,
-  IconButton,
-} from "@material-tailwind/react";
+import pkg from '@material-tailwind/react';
+  const { Navbar, Avatar, Typography, IconButton, Collapse, MenuItem } = pkg;
 import {
   UserIcon,
   WrenchScrewdriverIcon,
