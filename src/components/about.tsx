@@ -31,7 +31,7 @@ export function AboutPresentation() {
           <div>
           <div>
             <iframe 
-              width="560" 
+              width="100%" 
               height="315" 
               src="https://www.youtube.com/embed/TX8vKNgY4sU" 
               title="YouTube video player" 
