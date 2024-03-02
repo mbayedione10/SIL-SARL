@@ -29,41 +29,17 @@ export function AboutPresentation() {
             </Typography>
           </div>
           <div>
-      <div className="absolute right-0 top-0 h-full w-full flex justify-end">
-        <div className="w-28 h-28  flex rounded-xl relative blur-2xl">
-            <span
-              className="absolute w-16 h-16 -top-1 -right-1 bg-[#25328D] rounded-md rotate-45"
-            ></span>
-            <span
-              className="absolute w-16 h-16 -bottom-1 -right-1 bg-[#FCDC58] rounded-md rotate-45"
-            ></span>
-            <span
-              className="absolute w-16 h-16 -bottom-1 -left-1 bg-[#ED8006] rounded-md rotate-45"
-            ></span>
+          <div>
+            <iframe 
+              width="560" 
+              height="315" 
+              src="https://www.youtube.com/embed/TX8vKNgY4sU" 
+              title="YouTube video player" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+              allowFullScreen
+            ></iframe>
           </div>
-      </div>
-
-      <div className="absolute right-0 bottom-0 h-full w-full flex items-end">
-        <div className="w-28 h-28  flex rounded-xl relative blur-2xl">
-            <span
-              className="absolute w-16 h-16 -top-1 -right-1 bg-[#25328D] rounded-md rotate-45"
-            ></span>
-            <span
-              className="absolute w-16 h-16 -bottom-1 -right-1 bg-[#FCDC58] rounded-md rotate-45"
-            ></span>
-            <span
-              className="absolute w-16 h-16 -bottom-1 -left-1 bg-[#ED8006] rounded-md rotate-45"
-            ></span>
           </div>
-      </div>
-            <video 
-            src="video.mp4" 
-            className="mx-auto  md:flex" 
-            style={{ height: "400px", width:"400px" }}
-            controls />
-
-          </div>
-          
         </div>
       </div>
       </section>
